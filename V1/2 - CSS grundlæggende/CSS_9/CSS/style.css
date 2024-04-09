@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana;
+    background-image: url(../img/Zig-Zag.svg);
+    margin-left: 20%;
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+
+
+div.container{
+    max-width: 1000px;
+    background-color: white;
+    text-align: center;
+    border-top: 5px solid #a38073;
+
+
+}
+
+div.layout{
+    border-top: 5px solid #a38073;
+    width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+article{
+    
+}
+
+img{
+    float: right;
+    padding: 10px;
+}
+
+div.layout{
+    font-size: 10px;
+}
+
+div.layout h2{
+    position: relative;
+    top: -15px;
+    font-size: 25px;
+    width: 100%;
+    background-color: white;
+}
+
+div.layout header{
+    position: relative;
+    width: 100%;
+    padding: 25px;
+    background-color: #2a9d8f;
+
+}
+
+div.layout header h3{
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+div.layout .aside,
+.main{
+    height: 250px;
+}
+
+div.layout .aside{
+    position: relative;
+    background-color: #e9c46a;
+    float: left;
+    width: 25%;
+}
+
+div.layout .aside h3{
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+div.layout .main{
+    position: relative;
+    background-color: #f4a261;
+    float: right;
+    width: 75%;
+}
+
+div.layout .main h3{
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+div.layout footer{
+    position: relative;
+    background-color: #e97f51;
+    clear: both;
+    height: 75px;
+}
+
+div.layout footer h3{
+    position: absolute;
+    top: -12px;
+    left: 0px;
+}
+
+
+
+
+

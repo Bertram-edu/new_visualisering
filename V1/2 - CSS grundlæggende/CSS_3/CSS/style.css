@@ -1,0 +1,52 @@
+*{
+    color: white;
+}
+
+body{
+    background-image: url(../imgs/background.jpg);
+}
+
+h2{
+    background-color: purple;
+    width: 100%;
+}
+
+.one{
+    background-image: url(../imgs/light-bulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+}
+
+.two{
+    background-image: url(../imgs/light-bulb.png);
+    background-position: center;
+    background-size: 40px;
+}
+
+.three{
+    background-image: url(../imgs/light-bulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25px;
+}
+.four{
+    background-image: url(../imgs/light-bulb.png);
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    background-color: black;
+}
+
+div.box{
+    background-image: url(../imgs/pear.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 50%;
+    background-color: white;
+
+}
+
+

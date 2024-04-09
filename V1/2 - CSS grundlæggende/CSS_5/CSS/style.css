@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    line-height: 140%;
+}
+
+div.list{
+    width: 50rem;
+    height: 30rem;
+    background: #292d7b;
+    font-family: Verdana, sans-serif;
+
+}
+
+ul{
+    list-style: square inside url("../img/8-bit-amogus.png");
+}
+
+ul.list{
+    color: #fbf6df;
+    font-size: 75%;
+}
+
+
+.dag{
+    color: #9497db;
+    position: relative;
+    left: 8px;
+}
+
+tr:hover{
+    background-color: #ddd;
+    transition: 1s;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table{
+    font-size: 28px;
+    width: 400px;
+    overflow-x: auto;
+}
+
+table{
+    width: 2000px;
+}
+
+tr.top{
+    background-color: #292d7b;
+    color: #fbf6df;
+}
+
+
+

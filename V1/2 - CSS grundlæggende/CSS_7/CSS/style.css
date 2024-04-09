@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: hsl(194, 100%, 31%);
+    color: #ddd;
+}
+div.container{
+    max-width: 1000px;
+    padding: 1.5rem;
+}
+li.il{
+    display: inline;
+    margin-left: 25px;   
+}
+
+ul{
+    padding: 0px;
+}
+
+/*lc = line-color*/
+.lc{
+    color: hsl(194, 100%, 70%);
+
+    
+}
+
+table{
+    width: 50%;
+}
+
+table, th, td{
+    border: 2px solid #ddd;
+    border-collapse: collapse;
+    color: #111;
+}
+
+th{
+    background-color: hsl(194, 100%, 31%);
+    color: #ddd;
+}
+
+tr.female{
+    background-color: #ccc;
+}
+
+tr.male{
+    background-color: #bbb;
+}
+
+.t2 .male{
+    display: none;
+}
+
+#imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+

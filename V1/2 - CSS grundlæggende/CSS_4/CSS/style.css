@@ -1,0 +1,50 @@
+html{
+    font-size: 62.5%;
+}
+body{
+   font-size: 1.8rem;
+   line-height: 140%;
+}
+h3{
+    text-align: center;
+}
+
+
+.google{
+    font-family: "roboto", sans-serif;
+    font-size: 3rem;
+}
+
+@font-face {
+    font-family: firasans-extralight;
+    src: url(../../fonts/fira-sans/FiraSans-ExtraLight.otf);
+}
+
+.custom{
+    font-family: firasans-extralight;
+    font-size: 3rem;
+}
+
+@font-face {
+    font-family: minecraft;
+    src: url(../../fonts/minecraft/Minecraftia-Regular.ttf);
+}
+
+.typography{
+    font-family: minecraft;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+a:active{
+    color: red;
+}
+

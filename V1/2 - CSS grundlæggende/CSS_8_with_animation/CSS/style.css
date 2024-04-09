@@ -1,0 +1,52 @@
+/*king of clover*/
+.img1{
+    position: absolute;
+    z-index: 0;
+}
+/*king of hearts*/
+.img2{
+    position: absolute;
+    z-index: -1;
+    top: 40px;
+    left: 40px;
+}
+/*king of rubies*/
+.img3{
+    position: absolute;
+    z-index: -2;
+    top: 70px;
+    left: 70px;
+}
+/*king of spades*/
+.img4{
+    position: absolute;
+    z-index: -3;
+    top: 100px;
+    left: 100px;
+}
+/*joker of spades*/
+.img5{
+    position: absolute;
+    z-index: -4;
+    top: 130px;
+    left: 130px;
+}
+
+img:hover{
+    position: absolute;
+    border: 5px solid blue;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+h4.ziftw{
+    position: absolute;
+    z-index: 10;
+    border: 1px;
+    background-color: hsla(39, 100%, 50%, 0.7);
+    color: purple;
+    font-size: 50px;
+    top: 150px;
+    left: 65px;
+
+}

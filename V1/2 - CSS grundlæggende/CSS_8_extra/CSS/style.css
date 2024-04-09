@@ -1,0 +1,21 @@
+.parent{
+    width: 200px;
+    height: 200px;
+}
+
+.flower{
+    position: absolute;
+    z-index: 1;
+}
+
+.dog{
+    position: absolute;
+    z-index: 0;
+}
+
+.parent:hover{
+    .dog{
+        z-index: 2;
+    }
+}
+
