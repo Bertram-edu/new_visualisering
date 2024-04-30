@@ -1,0 +1,26 @@
+body {
+  background-color: #000319;
+  color: white;
+}
+
+.marquee {
+  overflow: hidden;
+  border-top: 0px solid #000;
+  border-bottom: 0px solid #000;
+  display: flex;
+}
+
+.marquee div {
+  display: flex;
+  flex-direction: row;
+}
+
+.marquee div img {
+  margin-left: 50px;
+}
+
+.marquee h1 {
+  font-size: 5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
