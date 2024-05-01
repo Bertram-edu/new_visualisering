@@ -3,11 +3,11 @@ function Marquee(selector, speed) {
   const clone = parentSelector.innerHTML;
   const firstElement = parentSelector.children[0];
   let i = 0;
-  console.log(firstElement);
-  parentSelector.insertAdjacentHTML("beforeend", clone);
-  parentSelector.insertAdjacentHTML("beforeend", clone);
-  parentSelector.insertAdjacentHTML("beforeend", clone);
-  parentSelector.insertAdjacentHTML("beforeend", clone);
+  // console.log(firstElement);
+  // makes the about select currently 10 copies of the div element to support large screen
+  for (let i = 0; i < 10; i++) {
+    parentSelector.insertAdjacentHTML("beforeend", clone); 
+  }
 
   setInterval(function () {
     firstElement.style.marginLeft = `-${i}px`;
