@@ -118,5 +118,64 @@ console.log(amplitudeBug);
 /*
 Given an array of forecased maximum temperatures, the therometer displays a string with there temperature.
 
-Example: [17, 21, 23] will print "... 17"
+Example: [17, 21, 23] will print "... 17°C in 1 days ... 21°C in 2 days ... 23°C in 3 days ..."
+
+Create a function 'printForecast' which takes in an array 'arr' and logs a string like the above to the console
+
+Use the problem-sovling framework: Understand the problem and break it up into sub-problems!
+
+TEST DATA 1: [17, 21, 23]
+TEST DATA 2: [12, 5, -5, 0, 4]
+*/
+/*
+// my version
+function printForecast(arr) {
+  let final_string;
+  for (let i = 0; i < arr.length; i++) {
+    //console.log(`... ${arr[i]}°C in ${i + 1} days `);
+    if (final_string) {
+      final_string = final_string + `${arr[i]}°C in ${i + 1} days ... `
+    } else {
+      final_string = `... ${arr[i]}°C in ${i + 1} days `
+    }
+  }
+  console.log(final_string)
+}
+
+const TEST_DATA_1 = [17, 21, 23]
+const TEST_DATA_2 = [12, 5, -5, 0, 4]
+
+printForecast(TEST_DATA_2);
+
+*/
+/*
+// his version
+
+// 1) Understanding the problem
+// - Array transformed to string, seperated by ...
+// - What is the x days? Answer: index + 1
+
+// 2) Breaking up into sub-problems
+// - Transform array into string
+// - Transfrom each element to string with °C
+// - String needs to contain day (index + 1)
+// - Add ... between elemtns and start and end of string
+// - Log string to console
+
+const data1 = [17, 21, 23];
+const data2 = [12, 5, -5, 0, 4];
+
+
+
+const printForecast = function (arr) {
+  let str = "";
+  for (let i = 0; i < arr.length; i++) {
+    str += `${arr[i]}°C in ${i + 1} days ... `
+  }
+  console.log("... " + str)
+};
+printForecast(data1);
+
+// 2+3=5+4=9
+// [2,3,4]
 */
